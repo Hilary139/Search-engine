@@ -69,6 +69,10 @@ button:hover{
 }
 
 
+.about{
+    display: none;
+}
+
 
 @media(max-width:800px){
     
@@ -112,5 +116,26 @@ button:hover{
     color: rgb(233, 227, 227);
     background-color: rgb(28, 29, 29);
 }
+.about{
+    display: contents;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: -20px;
+    padding: 2px;
+    color: rgb(99, 172, 221);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 5% auto;
+}
 
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.p-about1{
+    color: rgb(6, 56, 90) ;
+    font-size: 12px;
+}
 }
